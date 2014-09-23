@@ -9,3 +9,4 @@ set.seed(40)
 for (i in 1:100){
   X[i] <- bivariate.normal(M1=0, M2=3,S1=1,S2=4,p1=.7)
 }
+plot(density(X), xlab='Kernel Density plot of X',main='')
