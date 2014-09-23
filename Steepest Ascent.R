@@ -38,5 +38,5 @@ steepest.ascent <- function(X, start, step=.0005){
    # print(norm.grad) # this print statement I used to diagnose problems with the model by printing different varaibles as it ran.
     count <- count+1
   }
-  return(data.frame(p=M[1], Mu1=M[2],Mu2=M[3],sigma1=M[4],sigma2=M[4]))  
+  return(data.frame(p=M[1], Mu1=M[2],Mu2=M[3],sigma1=M[4],sigma2=M[5]))  
 }
